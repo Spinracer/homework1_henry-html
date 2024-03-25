@@ -1,0 +1,61 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+#titulo_principal{
+    border-radius: 10%;
+    background-color: #553f8c;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    font-size: 5.5vw;
+    
+}
+
+.espacio{
+    height: 13px;
+}
+
+#logo-contenedor{
+    position: relative;
+    overflow: hidden;
+}
+
+#text-hover{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+
+}
+
+
+#logo:hover #text-hover{
+    opacity: 1;
+    transition-delay: 0.5S;
+
+}
+
+#logo {
+    width: 31%;
+    height: 200px;
+    padding: auto;
+    margin: auto;
+}
+
+#logo img{
+    padding-top:6px ;
+    padding-left: 6px;
+}
+
+#logo:hover{
+    background-color: #9784b9;
+    border: 2px solid black;
+    width: 65%;
+    height: 200px;
+    padding: auto;
+    transition: 1s;
+    
+}

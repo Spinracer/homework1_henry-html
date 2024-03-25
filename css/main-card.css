@@ -1,0 +1,23 @@
+
+
+.cards img{
+    height: 230px; 
+    margin: 7px;
+}
+
+.cards{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards:hover{
+    background-color: #9784b9;
+    transition: 0.7s;
+    border: 3px solid rgb(23, 23, 23);
+    width: 900px;
+    height: 250px;
+}

@@ -1,0 +1,45 @@
+.contenedor{
+    background-color: #8967b6;
+    margin: auto;
+    width: 70%;
+    border-radius: 2%;
+    
+}
+#letras-indice{
+    color: black;
+}
+
+.sub-title {
+    text-align: center;
+    background-color: #553f8c;
+    border-radius: 2% ;
+    
+}
+
+#menu-indice {
+    color: #8967b6;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+#menu-indice:hover{
+    background-color: #9784b9;
+    color: #9784b9;
+    border: 2px solid black;
+    width: 65%;
+    height: 285px;
+    padding: auto;
+    transition: 1s;
+    
+}
+
+#letras-indice:hover {
+    font-size: 20px;
+    padding: auto;
+    transition: 0.4s ease-in-out;
+    
+}
+#menu-indice a {
+    text-decoration: none;
+}
